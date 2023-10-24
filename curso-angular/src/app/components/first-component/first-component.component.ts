@@ -13,7 +13,9 @@ export class FirstComponentComponent implements OnInit{
   car ={
     name:'Polo',
     year:2022,
+   
   }
+  cores = ['azul','verde','amarelo'];
 
   construtor(){}
   ngOnInit(): void {
